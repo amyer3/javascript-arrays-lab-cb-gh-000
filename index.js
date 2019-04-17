@@ -23,7 +23,7 @@ function appendKitten(name){
   array = kittens
   array.push(name)
   console.log(array)
-  return kittens
+  return array
 }
 
 function prependKitten(name){
