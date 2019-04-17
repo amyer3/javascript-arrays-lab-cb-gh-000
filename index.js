@@ -19,11 +19,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var array = []
-  array = kittens
-  array.push(name)
-  console.log(array)
-  return array
+  return [...kittens, name]
 }
 
 function prependKitten(name){
